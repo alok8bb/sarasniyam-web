@@ -16,6 +16,7 @@ const config: Config = {
         },
         fontFamily: {
             hindi: "Inknut Antiqua",
+            primary: "Istok Web",
         },
     },
     plugins: [],
