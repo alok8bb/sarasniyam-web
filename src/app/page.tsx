@@ -15,7 +15,7 @@ export default function Home() {
 
                 <div className="flex flex-row px-12 gap-14 justify-center py-16 ">
                     <ServiceCard
-                        link=""
+                        link="/type/Personal Trainer"
                         title="Personal Trainer"
                         icon={
                             <CiDumbbell
@@ -26,7 +26,7 @@ export default function Home() {
                         }
                     />
                     <ServiceCard
-                        link=""
+                        link="/type/Home Tutor"
                         title="Home Tutor"
                         icon={
                             <SlGraduation
@@ -37,8 +37,8 @@ export default function Home() {
                         }
                     />
                     <ServiceCard
-                        link=""
-                        title="Personal Trainer"
+                        link="/type/Music Teacher"
+                        title="Music Teacher"
                         icon={
                             <CiMusicNote1
                                 size={220}
