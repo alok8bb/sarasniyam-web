@@ -28,7 +28,7 @@ export default function RootLayout({
             <body
                 className={
                     inter.className +
-                    "min-h-screen w-screen flex flex-col bg-gradient-to-b from-[#489cff40] to-[#6c6ad340]"
+                    "min-h-screen w-screen flex flex-col bg-main-gradient"
                 }
             >
                 <Navbar />
