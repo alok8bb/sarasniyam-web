@@ -24,7 +24,7 @@ const LinkElement: React.FC<linkProps> = ({ to, title, children }) => {
 export const Navbar = () => {
     return (
         <nav className="flex flex-row py-5 px-10 justify-between bg-white shadow-lg">
-            <a className="hover:cursor-pointer" href={"#"}>
+            <a className="hover:cursor-pointer" href={"/"}>
                 <Image alt="logo" src="/logo.png" width={50} height={5} />
             </a>
             <div>

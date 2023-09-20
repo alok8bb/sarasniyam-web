@@ -20,7 +20,7 @@ export default function Page() {
                             className="m-auto py-10"
                         />
                     }
-                    title="Online"
+                    title="Offline"
                     link=""
                 />
                 <ServiceCard
@@ -32,7 +32,7 @@ export default function Page() {
                             className="m-auto py-10"
                         />
                     }
-                    title="Offline"
+                    title="Online"
                 />
             </div>
         </main>
