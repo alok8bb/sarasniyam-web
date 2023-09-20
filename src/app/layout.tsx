@@ -20,11 +20,15 @@ export default function RootLayout({
         <html lang="en">
             <head>
                 <link rel="icon" href="/logo.png" />
+                <meta
+                    name="viewport"
+                    content="width=device-width, initial-scale=1.0"
+                />
             </head>
             <body
                 className={
                     inter.className +
-                    " bg-gradient-to-b from-[#489cff40] to-[#6c6ad340] h-screen"
+                    "min-h-screen w-screen flex flex-col bg-gradient-to-b from-[#489cff40] to-[#6c6ad340]"
                 }
             >
                 <Navbar />

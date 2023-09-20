@@ -4,7 +4,7 @@ import { LiaChalkboardTeacherSolid } from "react-icons/lia";
 
 export default function Page() {
     return (
-        <main className="flex flex-col p-4">
+        <div className="flex flex-col p-4 flex-grow">
             <div className="flex flex-col text-blue-500 text-center gap-3">
                 <div className="flex flex-col items-end p-12">
                     <p className="text-5xl text-blue-500 font-hindi">सरसनियम</p>
@@ -15,9 +15,9 @@ export default function Page() {
                 <ServiceCard
                     icon={
                         <LiaChalkboardTeacherSolid
-                            size={250}
+                            size={"10rem"}
                             color={"white"}
-                            className="m-auto py-10"
+                            className="m-auto py-3"
                         />
                     }
                     title="Offline"
@@ -27,14 +27,14 @@ export default function Page() {
                     link=""
                     icon={
                         <LuMonitorPlay
-                            size={250}
+                            size={"10rem"}
                             color={"white"}
-                            className="m-auto py-10"
+                            className="m-auto py-4"
                         />
                     }
                     title="Online"
                 />
             </div>
-        </main>
+        </div>
     );
 }

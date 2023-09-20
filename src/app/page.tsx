@@ -4,10 +4,10 @@ import { CiDumbbell, CiMusicNote1 } from "react-icons/ci";
 
 export default function Home() {
     return (
-        <main className="flex flex-col p-4">
+        <main className="flex flex-col p-8 w-full">
             <div className="flex flex-col text-blue-500 text-center gap-3">
                 <div className="flex flex-col">
-                    <h1 className="text-8xl text-blue-500 font-hindi py-8">
+                    <h1 className="text-8xl text-blue-500 font-hindi">
                         सरसनियम
                     </h1>
                     <h2 className="tracking-wider text-4xl">HOME TUITIONS</h2>
@@ -19,7 +19,7 @@ export default function Home() {
                         title="Personal Trainer"
                         icon={
                             <CiDumbbell
-                                size={220}
+                                size={"10rem"}
                                 fill={"white"}
                                 className="m-auto"
                             />
@@ -30,7 +30,7 @@ export default function Home() {
                         title="Home Tutor"
                         icon={
                             <SlGraduation
-                                size={220}
+                                size={"10rem"}
                                 color={"white"}
                                 className="m-auto py-5"
                             />
@@ -41,7 +41,7 @@ export default function Home() {
                         title="Music Teacher"
                         icon={
                             <CiMusicNote1
-                                size={220}
+                                size={"10rem"}
                                 color={"white"}
                                 className="m-auto py-4"
                             />
